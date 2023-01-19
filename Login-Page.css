@@ -1,0 +1,18 @@
+.Welcome {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+.GymFit {
+    font-size: 35px;
+    text-align: center;
+    margin-top: -15px;
+    color: rgb(231, 89, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
