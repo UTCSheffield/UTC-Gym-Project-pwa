@@ -7,10 +7,19 @@ h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px
 
+
 }
 .SideBarButton{
     background-color: white;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     border-radius: 10px;
     padding: 1px 15px;
+    border: thin;
+}
+.relative {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    top: 10px;
 }
