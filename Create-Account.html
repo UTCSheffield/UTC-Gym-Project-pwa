@@ -5,30 +5,32 @@
 <html>
 <head>
   <title>Page Title</title>
+  <link rel="stylesheet" href="Create-Account.css">
 </head>
 <body>
-  <h1>Welcome To Gym name</h1>
+  <h1>Welcome To <br> Gym Fit!</h1>
   <h2>Create Account</h2>
   <form>
 <!--Display Name-->
-    <p><label for="displayname">Display Name</label></p>
-    <p><span><input data-bind="value: name" id="displayname"  name="display-name" type="text" /></span></p>
+    <p><label for="displayname">Enter Display Name</label></p>
+    <p title="Type here!"><span><input data-bind="value: name" id="displayname"  name="display-name" type="text" /></span></p>
 <!--Username-->
-    <p><label for="username">Username</label></p>
-    <p><span><input data-bind="value: username" id="username" type="text" name="username" /></span></p>
+    <p><label for="username">Enter Username</label></p>
+    <p title="Type here!"><span><input data-bind="value: username" id="username" type="text" name="username" /></span></p>
 <!--Email Address-->
-    <p><label for="emailaddress">Email Address</label></p>
-    <p><span><input data-bind="value: email" id="emailaddress" type="Email" name="email-address"/></span></p>
+    <p><label for="emailaddress">Enter Email Address</label></p>
+    <p title="Type here!"><span><input data-bind="value: email" id="emailaddress" type="Email" name="email-address"/></span></p>
 <!--Password-->
-    <p><label for="password">Password</label></p>
-    <p><span><input data-bind="value: password" id="password" type="password" name="password"/></span></p>
+    <p><label for="password">Enter Password</label></p>
+    <p title="Type here!"><span><input data-bind="value: password" id="password" type="password" name="password"/></span></p>
 <!--Confirm Password-->
     <p><label for="confirm-password">Confirm Password</label></p>
-    <p><span><input data-bind="value: password" id="confirm-password" type="password" name="Confirm Password"/></span></p>
+    <p title="Type here!"><span><input data-bind="value: password" id="confirm-password" type="password" name="Confirm Password"/></span></p>
 <!--Create Account Button-->
-    <p><button type="submit">Create Account</button></p>
+    <p><button title="Click here!" type="submit">Create Account</button></p>
 <!--Back To Login-->
-    <p><label>Already Have An Account?</label><button type="submit">Login</button></p>
+    <p><a href="https://www.bing.com">Forgot Password?</a><br>
+    <a href="Login-Page.html">Already Have An Account?</a><br><button title="Click here!" type="submit">Login</button></p>
   </form>
 </body>
 </html>

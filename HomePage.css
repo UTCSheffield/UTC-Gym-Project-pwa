@@ -1,15 +1,15 @@
-
 p1 {
     background-color: aquamarine;
     font-family: Arial;
   }
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px
+    font-size: 50px;
+    color: #000000;
 
 }
 .SideBarButton{
-    background-color: white;
+    color: #000000;
     font-size: 50px;
     border-radius: 10px;
     padding: 1px 15px;

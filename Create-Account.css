@@ -1,0 +1,18 @@
+h1 {
+    font-weight: bold;
+    font-family:'Verdana';
+    font-size: 50px;
+    color:#8AEC09;
+}
+h2{
+    font-weight: bold;
+    font-family:'Verdana';
+    font-size: 25px;
+    color: #E75946;
+}
+body{
+    font-family:'Verdana';
+    font-size: 20px;
+    background-color: #fff6e5;
+    
+}
