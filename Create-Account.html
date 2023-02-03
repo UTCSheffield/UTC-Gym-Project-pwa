@@ -8,29 +8,24 @@
   <link rel="stylesheet" href="Create-Account.css">
 </head>
 <body>
-  <h1>Welcome To <br> Gym Fit!</h1>
-  <h2>Create Account</h2>
+  <h1 class = "Welcome">Welcome To</h1>
+  <h1 class = "GymFit">Gym Fit!</h1>
+  <h1 class = "CreateAccount">Create Account</h1>
   <form>
 <!--Display Name-->
-    <p><label for="displayname">Enter Display Name</label></p>
-    <p title="Type here!"><span><input class="InputBox" data-bind="value: name" id="displayname"  name="display-name" type="text" /></span></p>
+    <p title="Type here!"><span><input placeholder="Enter Display Name" class="InputBox" data-bind="value: name" id="displayname"  name="display-name" type="text" /></span></p>
 <!--Username-->
-    <p><label for="username">Enter Username</label></p>
-    <p title="Type here!"><span><input class="InputBox" data-bind="value: username" id="username" type="text" name="username" /></span></p>
+    <p title="Type here!"><span><input placeholder="Enter Username" class="InputBox" data-bind="value: username" id="username" type="text" name="username" /></span></p>
 <!--Email Address-->
-    <p><label for="emailaddress">Enter Email Address</label></p>
-    <p title="Type here!"><span><input class="InputBox" data-bind="value: email" id="emailaddress" type="Email" name="email-address"/></span></p>
+    <p title="Type here!"><span><input placeholder="Enter Email Address" class="InputBox" data-bind="value: email" id="emailaddress" type="Email" name="email-address"/></span></p>
 <!--Password-->
-    <p><label for="password">Enter Password</label></p>
-    <p title="Type here!"><span><input class="InputBox" data-bind="value: password" id="password" type="password" name="password"/></span></p>
+    <p title="Type here!"><span><input placeholder="Enter Password" class="InputBox" data-bind="value: password" id="password" type="password" name="password"/></span></p>
 <!--Confirm Password-->
-    <p><label for="confirm-password">Confirm Password</label></p>
-    <p title="Type here!"><span><input class="InputBox" data-bind="value: password" id="confirm-password" type="password" name="Confirm Password"/></span></p>
+    <p title="Type here!"><span><input placeholder="Confirm Password" class="InputBox" data-bind="value: password" id="confirm-password" type="password" name="Confirm Password"/></span></p>
 <!--Create Account Button-->
     <p><button class="ButtonStyle" title="Click here!" type="submit">Create Account</button></p>
 <!--Back To Login-->
-    <p><a href="https://www.bing.com">Forgot Password?</a><br>
-    <a href="Login-Page.html">Already Have An Account?</a></p>
+    <a href="Login-Page.html">Already Have An Account?</a>
   </form>
 </body>
 </html>
