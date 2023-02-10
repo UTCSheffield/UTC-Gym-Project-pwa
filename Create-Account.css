@@ -18,6 +18,9 @@
     font-size: 25px;
     color: #000000;
 }
+::placeholder{
+    color: #E75946;
+}
 body{
     background-color: #fff6e5;
     text-align: center;
