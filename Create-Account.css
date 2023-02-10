@@ -40,6 +40,8 @@ body{
 .ButtonStyle
 {
     width: 75%;
+    font-size: 15px;
+    font-family: 'Poppins' , sans-serif;
   background-color: #E75946;
   color: white;
   padding: 14px 20px;
