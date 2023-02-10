@@ -12,7 +12,7 @@
     font-size: 50px;
     text-align: center;
     margin-top: -45px;
-    color: rgb(231, 89, 70);
+    color: #E75946;
     font-family: 'Poppins', sans-serif;
 }
 ::placeholder{
@@ -51,7 +51,7 @@ body {
   font-size: 15px;
   font-family: 'Poppins' , sans-serif;
   background-color: #E75946;
-  color: white;
+  color: #FFFFFF;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
